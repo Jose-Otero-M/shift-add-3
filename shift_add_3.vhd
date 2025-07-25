@@ -4,7 +4,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity shift_add_3 is
     generic (
-        N : integer := 10  -- Número de bits de entrada binaria
+        N : integer := 10  -- Number of bits for BIN_DATA
     );
     port (
         BIN_DATA : in  std_logic_vector(N-1 downto 0);
