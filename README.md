@@ -60,13 +60,13 @@ The following binary values are tested:
 
 - 1111111111 (1023)
 
-Each value is held for 30 ns to observe the resulting BCD output.
+Each value is held for `30 ns` to observe the resulting BCD output.
 
 ## Running the Simulation
 You can simulate the testbench in Vivado as follows:
 
 1. Open the project in Vivado.
-2. Set bin_2_bcd_tb as the top-level simulation module.
+2. Set `bin_2_bcd_tb.vhd` as the top-level simulation module.
 3. Run the behavioral simulation or timing simulation depending on the selected mode.
 4. Observe the waveform output to verify BCD conversion correctness.
 
