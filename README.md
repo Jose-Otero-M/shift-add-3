@@ -39,7 +39,7 @@ It applies several binary input values and observes the corresponding BCD output
 The testbench supports two simulation modes:
 
 - Functional Simulation:
-Uses a generic parameter N to allow flexible testing with different input widths.
+Uses a generic parameter `N` to allow flexible testing with different input widths.
 
 - Post-Implementation Timing Simulation (optional):
 Requires commenting out the functional lines (marked with `==== BEHAVIORAL SIMULATION ====`) and uncommenting the timing-specific section
